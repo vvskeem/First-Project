@@ -1,0 +1,247 @@
+#music {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+.musicCard {
+    padding: 10px;
+    margin: 10px;
+}
+
+.message {
+    color: chartreuse;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #b3d7ff;
+}
+
+body {
+    font-family: monospace;
+
+}
+
+#header {
+    display: contents;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.pos-f-t {
+    background-color: black;
+
+}
+
+.margin_15px {
+    color: chartreuse;
+    Margin: 15px;
+
+
+}
+
+
+#header_brand_text {
+    line-height: 0.5;
+}
+
+.link_with_no_text_decoration {
+    text-decoration: none;
+}
+
+#about_container {
+    height: 100vh;
+    padding-top: 12%;
+    position: unset;
+    top: 60px;
+    background: white;
+
+}
+
+#about_photo {
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./resources/VVS\ Logo.jpg');
+
+}
+
+
+#testimonies_container {
+    background-color: darkslategrey;
+    border: 5px solid black;
+    margin-bottom: 30px;
+    padding-top: 1rem;
+
+}
+
+#testimonies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+.testimonial_card {
+    border: 5px solid black;
+
+    width: 25em;
+    margin: 0px, 5px, 30px, 0px;
+    background-color: black;
+    padding: 15px;
+    ;
+}
+
+.user_image_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+
+.user_image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+
+.inline_element {
+    display: inline;
+}
+
+.margin_2px {
+    margin: 2px;
+}
+
+.no_list_style {
+    list-style: none;
+}
+
+.padding_15px {
+    padding: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.white_color {
+    color: white;
+}
+
+.horizontally_centered_text {
+    text-align: center;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#Background-form-color {
+    background-color: darkslategrey;
+    font-size: medium;
+}
+
+.form {
+    text-align: -webkit-center;
+    padding: 5em 15em;
+}
+
+@media only screen and (max-width:423px) {
+    .testimonial_card {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 423px) and (max-width:500px) {
+    .testimonial_card {
+        width: 40%;
+    }
+
+
+
+    @media only screen and (min-width: 500px) and (max-width:600px) {
+
+        .testimonial_card {
+            width: 20%;
+        }
+
+
+    }
+
+    @media only screen and (min-width:700px) {
+
+        .flex_container {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            justify-content: flex-start;
+
+        }
+    }
+
+
+    .dropdown-menu {
+        font-display: #2887c7;
+        margin: 5px;
+        background-color: #2887c7;
+    }
+
+    .dropdown-item {
+        color: #2887c7;
+        margin: 5px;
+
+
+    }
+
+    .horizontally_centered_text {
+        color: white;
+    }
+
+    .user_image_container {
+        display: flex;
+        justify-content: center
+    }
+
+    #container-fluid {
+        width: 100%;
+
+    }
+
+    .bg-dark {
+        background-color: black;
+    }
+
+    .card-body {
+
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+
+        border-color: black;
+
+
+    }
+
+
+
+}
