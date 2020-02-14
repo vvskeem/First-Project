@@ -1,116 +1,114 @@
 <!-- Create an HTML page -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML + CSS</title> <!-- Change the title of the page to "HTML + CSS" -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <!-- Change the title of the page to "HTML + CSS" -->
     <!-- Linking to our CSS styles -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <div class="pos-f-t">
-        <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">Very Very Special</span>
-        </nav>
+      <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Very Very Special</span>
+      </nav>
     </div>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <section id="about_container" class="horizontally_centered_text">
-
-        <div id="about_photo">
-        </div>
-        <section>
-
-            <button type="button" name="vvskeem" id="newMusic" class="btn btn-primary mb-2">New Music</button>
-
-
-        </section>
-
+      <div id="splash">
+        <div id="about_photo"></div>
+      </div>
+      <section>
+        <button
+          type="button"
+          name="vvskeem"
+          id="newMusic"
+          class="btn btn-primary mb-2"
+        >
+          New Music
+        </button>
+      </section>
     </section>
 
     <section id="testimonies_container" class="padding_15px">
-
-
-        <!-- Create an h2 with "Testimonials" as its content -->
-        <h2 class="white_color horizontally_centered_text">Very Very Special </h2>
-        <div class="card-group" id="about_Brand">
-            <div class="card">
-                <img src="resources/vvslogo-1.jpg" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">The Brand</h5>
-                    <p class="card-text">Who I am & What I believe in </p>
-                    <p class="card-text"></p>
-                </div>
-            </div>
-            <div class="card" id="Merch_container">
-                <img src="resources/T Shirt-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Merch</h5>
-                    <p class="card-text">Order the newest merch right now!
-                    </p>
-                    <p class="card-text"></p>
-                </div>
-            </div>
-            <div class="card" id="Diamond_container">
-                <img src="resources/vvs circle logo-1.jpg" class="card-img-top" alt="VVS Logo">
-                <div class="card-body">
-                    <h5 class="card-title">Diamonds</h5>
-                    <p class="card-text">
-                        What do you really know about diamonds?
-
-                    </p>
-                    <p class="card-text"></p>
-                </div>
-            </div>
+      <!-- Create an h2 with "Testimonials" as its content -->
+      <h2 class="white_color horizontally_centered_text">Very Very Special</h2>
+      <div
+        class="card-group"
+        id="about_Brand"
+        style="padding-top: 5em;
+      "
+      >
+        <div class="card">
+          <img src="resources/vvslogo-1.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">The Brand</h5>
+            <p class="card-text">Who I am & What I believe in</p>
+            <p class="card-text"></p>
+          </div>
         </div>
+        <div class="card" id="Merch_container">
+          <img src="resources/T Shirt-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Merch</h5>
+            <p class="card-text">Order the newest merch right now!</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card" id="Diamond_container">
+          <img
+            src="resources/vvs circle logo-1.jpg"
+            class="card-img-top"
+            alt="VVS Logo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Diamonds</h5>
+            <p class="card-text">
+              What do you really know about diamonds?
+            </p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
+      <div id="music"></div>
 
-        <div id=music>
-
-
-        </div>
-
-        <div id=invest>
-
-        </div>
-
-
+      <div id="invest"></div>
     </section>
 
-
-    <Section>
-        <div id="donate">
-
-        </div>
-
-    </Section>
-
+    <section>
+      <div id="donate"></div>
+    </section>
 
     <!-- Linking JS that Bootstrap requires to work properly -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js"></script>
-</body>
-
-
-
-
+  </body>
 </html>
